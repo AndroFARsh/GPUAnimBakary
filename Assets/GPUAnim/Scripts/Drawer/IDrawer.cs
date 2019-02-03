@@ -1,7 +1,7 @@
 
 using System;
 
-namespace AnimBakery.Cook
+namespace AnimBakery.Draw
 {
     public interface IDrawer : IDisposable
     {

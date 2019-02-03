@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c863f70c60894f0fb1d3d072da5a8d8
+guid: 8b97cfbf107aa4f4bacd21a8b830f700
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -135,9 +135,8 @@ ModelImporter:
     400126: Spine
     400128: Spine1
     400130: Spine2
-    7400000: Macarena Dance
+    7400000: Hip Hop Dancing
     9500000: //RootNode
-    11100000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -158,7 +157,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -167,10 +166,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Macarena Dance
+      name: Hip Hop Dancing
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 247
+      lastFrame: 470
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -243,7 +242,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2

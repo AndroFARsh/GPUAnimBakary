@@ -20,7 +20,7 @@ namespace AnimBakery.Cook.Model
                 clip            = clip,
                 start           = start,
                 end             = end,
-                framesCount      = frameCount,
+                framesCount     = frameCount
             };
         }
             

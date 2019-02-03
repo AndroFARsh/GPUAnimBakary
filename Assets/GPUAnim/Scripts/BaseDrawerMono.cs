@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using AnimBakery.Draw;
+using UnityEngine;
 
-namespace AnimBakery.Cook
+namespace AnimBakery
 {
     [RequireComponent(typeof(ConfigMono))]
     public abstract class BaseDrawerMono : MonoBehaviour

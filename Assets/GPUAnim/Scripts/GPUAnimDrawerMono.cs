@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using AnimBakery.Cook;
+using AnimBakery.Draw;
+using UnityEngine;
 
-namespace AnimBakery.Cook
+namespace AnimBakery
 {
     public class GPUAnimDrawerMono : BaseDrawerMono
     {

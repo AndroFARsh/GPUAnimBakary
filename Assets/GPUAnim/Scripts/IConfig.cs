@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace AnimBakery.Cook
+namespace AnimBakery
 {
     public interface IConfig
     {

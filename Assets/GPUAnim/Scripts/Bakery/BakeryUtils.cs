@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEditor.Animations;
 using UnityEngine;
 
 namespace AnimBakery.Cook
@@ -35,6 +37,8 @@ namespace AnimBakery.Cook
 
         public static List<AnimationClip> GetAllAnimationClips(this Animation animation)
         {
+            if (animation == null) return null;
+            
             var animationClips = new List<AnimationClip>();
             foreach (AnimationState state in animation)
             {
@@ -43,14 +47,17 @@ namespace AnimBakery.Cook
             return animationClips;
         }
         
+        public static List<AnimationClip> GetAllAnimationClips(this Animator animator)
+        {
+            if (animator == null || animator.runtimeAnimatorController == null) return null;
+            
+            var controller = animator.runtimeAnimatorController as AnimatorController;
+            return controller.animationClips.ToList();
+        }
+
         public static string Format(Vector2Int v)
         {
             return "(" + v.x + ", " + v.y + ")";
-        }
-
-        public static string Format(Vector4 v)
-        {
-            return "(" + v.x + ", " + v.y + ", " + v.z + ", " + v.w + ")";
         }
 
         public static string Format(Color v)

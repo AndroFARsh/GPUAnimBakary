@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using AnimBakery.Cook;
 using AnimBakery.Cook.Model;
 using Unity.Collections;
 using Unity.Mathematics;
@@ -10,7 +11,7 @@ using UnityEngine;
 using UnityEngine.Profiling;
 using Random = UnityEngine.Random;
 
-namespace AnimBakery.Cook
+namespace AnimBakery.Draw
 {
     public class GPUAnimDrawer : IDrawer, IDisposable
     {
